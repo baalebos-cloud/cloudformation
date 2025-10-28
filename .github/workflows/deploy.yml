@@ -15,7 +15,7 @@ jobs:
         run: |
           aws cloudformation deploy \
             --template-file template.yaml \
-            --stack-name baalebos-stack \
+            --stack-name ji-masun-stack \
             --capabilities CAPABILITY_NAMED_IAM
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
